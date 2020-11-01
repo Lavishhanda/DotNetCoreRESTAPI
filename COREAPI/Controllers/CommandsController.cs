@@ -3,6 +3,8 @@ using COREAPI.Models;
 using System.Collections.Generic;
 using COREAPI.Data;
 using Microsoft.AspNetCore.Cors;
+using AutoMapper;
+using COREAPI.Dtos;
 
 namespace COREAPI.Controllers
 {
@@ -11,29 +13,34 @@ namespace COREAPI.Controllers
     public class CommandsController : ControllerBase
     {
         private readonly ICommanderRepo _repository;
-        public CommandsController(ICommanderRepo repository)
+        private readonly IMapper _mapper;
+
+        public CommandsController(ICommanderRepo repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
         
-        //private readonly MockCommanderRepo _repository = new MockCommanderRepo();
 
         //Get api/commands will hit this
         [HttpGet]
-        public ActionResult <IEnumerable<Command>> GetAllCommands()
+        public ActionResult <IEnumerable<CommandReadDto>> GetAllCommands()
         {
             var commandItems = _repository.GetAllCommands();
 
-            return Ok(commandItems);
+            return Ok(_mapper.Map<IEnumerable<CommandReadDto>>(commandItems));
         }
 
         //GET request for api/command/{id} a number for Id
         [HttpGet("{id}")]
-        public ActionResult <Command> GetCommandById(int id)
+        public ActionResult <CommandReadDto> GetCommandById(int id)
         {
             var commandItem = _repository.GetCommandById(id);
-
-            return Ok(commandItem);
+            if(commandItem!=null)
+            {
+                return Ok(_mapper.Map<CommandReadDto>(commandItem));
+            }
+            return NotFound();
         }
     }
 }
