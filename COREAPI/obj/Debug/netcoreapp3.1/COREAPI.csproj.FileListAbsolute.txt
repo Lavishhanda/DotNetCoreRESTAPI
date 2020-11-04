@@ -7,6 +7,8 @@ C:\Users\Admin\source\repos\COREAPI\COREAPI\bin\Debug\netcoreapp3.1\COREAPI.runt
 C:\Users\Admin\source\repos\COREAPI\COREAPI\bin\Debug\netcoreapp3.1\COREAPI.runtimeconfig.dev.json
 C:\Users\Admin\source\repos\COREAPI\COREAPI\bin\Debug\netcoreapp3.1\COREAPI.dll
 C:\Users\Admin\source\repos\COREAPI\COREAPI\bin\Debug\netcoreapp3.1\COREAPI.pdb
+C:\Users\Admin\source\repos\COREAPI\COREAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Admin\source\repos\COREAPI\COREAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Admin\source\repos\COREAPI\COREAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Admin\source\repos\COREAPI\COREAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Admin\source\repos\COREAPI\COREAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -49,6 +51,8 @@ C:\Users\Admin\source\repos\COREAPI\COREAPI\bin\Debug\netcoreapp3.1\runtimes\win
 C:\Users\Admin\source\repos\COREAPI\COREAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\COREAPI.AssemblyInfoInputs.cache
 C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\COREAPI.AssemblyInfo.cs
+C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\COREAPI.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\COREAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\COREAPI.RazorTargetAssemblyInfo.cache
 C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\COREAPI.csproj.CopyComplete
 C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\staticwebassets\COREAPI.StaticWebAssets.Manifest.cache
@@ -56,7 +60,4 @@ C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\staticwebass
 C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\COREAPI.dll
 C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\COREAPI.pdb
 C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\COREAPI.genruntimeconfig.cache
-C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\COREAPI.csproj.CoreCompileInputs.cache
-C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\COREAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Admin\source\repos\COREAPI\COREAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
-C:\Users\Admin\source\repos\COREAPI\COREAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Admin\source\repos\COREAPI\COREAPI\obj\Debug\netcoreapp3.1\COREAPI.csprojAssemblyReference.cache

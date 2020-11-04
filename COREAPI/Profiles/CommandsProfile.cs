@@ -12,7 +12,11 @@ namespace COREAPI.Profiles
     {
         public CommandsProfile()
         {
+            //mapping DTO for GET 
             CreateMap<Command, CommandReadDto>();
+
+            //mapping DTO for POST
+            CreateMap<CommandCreateDto, Command>();
         }
     }
 }
