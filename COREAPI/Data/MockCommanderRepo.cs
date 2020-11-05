@@ -10,6 +10,11 @@ namespace COREAPI.Data
             throw new System.NotImplementedException();
         }
 
+        public void DeleteCommand(Command cmd)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public IEnumerable<Command> GetAllCommands()
         {
             var commands = new List<Command>
@@ -28,6 +33,11 @@ namespace COREAPI.Data
         }
 
         public bool saveChanges()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void UpdateCommand(Command cmd)
         {
             throw new System.NotImplementedException();
         }

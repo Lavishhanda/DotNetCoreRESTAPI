@@ -17,6 +17,12 @@ namespace COREAPI.Profiles
 
             //mapping DTO for POST
             CreateMap<CommandCreateDto, Command>();
+
+            //mapping DTO for PUT
+            CreateMap<CommandUpdateDto, Command>();
+
+            //mapping DTO for PATCH
+            CreateMap<Command, CommandUpdateDto>();
         }
     }
 }
